@@ -218,12 +218,14 @@ export const sampleData = {
       title: "NahTech's Developer of the year 2022",
       issuer: 'NashTech',
       issuedDate: '2022',
+      description: ''
     },
     {
       id: uuidv4(),
       title: "NahTech's Top Excellent Developer 2020",
       issuer: 'NashTech',
       issuedDate: '2020',
+      description: ''
     }
   ],
   skills: [

@@ -86,11 +86,13 @@ export function InputProjectItem({ project, onSave, onRemove }) {
               <div className="w-full mb-4">
                 {/* Project Name */}
                 <SimpleTextInput title="Project Name" id={project.id + "-project-name"} initialValue={project.name}
+                  placeholder="Input project name..."
                   onChange={(value) => onSave({ ...project, name: value })} />
               </div>
               <div className="w-full mb-4">
                 {/* Period */}
                 <SimpleTextInput title="Period" id={project.id + "-period"} initialValue={project.period}
+                  placeholder="Input project period..."
                   onChange={(value) => onSave({ ...project, period: value })} />
               </div>
 
@@ -110,25 +112,25 @@ export function InputProjectItem({ project, onSave, onRemove }) {
                 {
                   project.sections &&
                   project.sections.map((section) => (
-                  <div key={section.id} className="p-2">
-                    <div className="flex justify-between">
-                      <p>{section.title}</p>
+                    <div key={section.id} className="p-2">
+                      <div className="flex justify-between">
+                        <p>{section.title}</p>
 
-                      <div className="flex gap-4">
+                        <div className="flex gap-4">
 
-                        <button className="text-gray-700 hover:text-blue-700" onClick={() => { onEditSection(section) }}>
-                          <Icon iconType="edit" size="size-5" />
-                        </button>
+                          <button className="text-gray-700 hover:text-blue-700" onClick={() => { onEditSection(section) }}>
+                            <Icon iconType="edit" size="size-5" />
+                          </button>
 
-                        <button className="text-gray-700 hover:text-red-700" onClick={() => { onRemoveKeyPoint(section.id); }}>
-                          <Icon iconType="clear" size="size-5" />
-                        </button>
+                          <button className="text-gray-700 hover:text-red-700" onClick={() => { onRemoveKeyPoint(section.id); }}>
+                            <Icon iconType="clear" size="size-5" />
+                          </button>
+                        </div>
                       </div>
-                    </div>
 
-                    <GrayHRLine />
-                  </div>
-                ))}
+                      <GrayHRLine />
+                    </div>
+                  ))}
               </div>
             </div>
           </div>
@@ -184,7 +186,7 @@ export function InputProjectItem({ project, onSave, onRemove }) {
                 <Icon iconType="add" size="size-5" />
                 <p>Add new key point</p>
               </button>
-              
+
 
             </div>
             <div className="flex shrink-0 flex-wrap items-center justify-end p-4 text-blue-gray-500">

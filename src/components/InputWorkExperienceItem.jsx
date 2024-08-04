@@ -86,15 +86,18 @@ export function InputWorkExperienceItem({ workExperience, onSave, onRemove }) {
               <div className="w-full mb-4">
                 {/* Company Name */}
                 <SimpleTextInput title="Company Name" id={workExperience.id + "-company-name"} initialValue={workExperience.companyName}
+                  placeholder="ABC Company"
                   onChange={(value) => onSave({ ...workExperience, companyName: value })} />
               </div>
               <div className="grid grid-cols-2 gap-4 mb-4">
                 {/* Job Title */}
                 <SimpleTextInput title="Title" id={workExperience.id + "-title"} initialValue={workExperience.jobTitle}
+                  placeholder="Software Engineer"
                   onChange={(value) => onSave({ ...workExperience, jobTitle: value })} />
 
                 {/* Work period */}
                 <SimpleTextInput title="Period" id={workExperience.id + "-period"} initialValue={workExperience.workPeriod}
+                  placeholder="Jan 2020 - Dec 2021"
                   onChange={(value) => onSave({ ...workExperience, workPeriod: value })} />
               </div>
 
@@ -114,25 +117,25 @@ export function InputWorkExperienceItem({ workExperience, onSave, onRemove }) {
                 {
                   workExperience.sections &&
                   workExperience.sections.map((section) => (
-                  <div key={section.id} className="p-2">
-                    <div className="flex justify-between">
-                      <p>{section.title}</p>
+                    <div key={section.id} className="p-2">
+                      <div className="flex justify-between">
+                        <p>{section.title}</p>
 
-                      <div className="flex gap-4">
+                        <div className="flex gap-4">
 
-                        <button className="text-gray-700 hover:text-blue-700" onClick={() => { onEditSection(section) }}>
-                          <Icon iconType="edit" size="size-5" />
-                        </button>
+                          <button className="text-gray-700 hover:text-blue-700" onClick={() => { onEditSection(section) }}>
+                            <Icon iconType="edit" size="size-5" />
+                          </button>
 
-                        <button className="text-gray-700 hover:text-red-700" onClick={() => { onRemoveKeyPoint(section.id); }}>
-                          <Icon iconType="clear" size="size-5" />
-                        </button>
+                          <button className="text-gray-700 hover:text-red-700" onClick={() => { onRemoveKeyPoint(section.id); }}>
+                            <Icon iconType="clear" size="size-5" />
+                          </button>
+                        </div>
                       </div>
-                    </div>
 
-                    <GrayHRLine />
-                  </div>
-                ))}
+                      <GrayHRLine />
+                    </div>
+                  ))}
               </div>
             </div>
           </div>
@@ -146,6 +149,7 @@ export function InputWorkExperienceItem({ workExperience, onSave, onRemove }) {
                 title="Title"
                 id={selectedSection.id + "-title"}
                 initialValue={selectedSection.title}
+                placeholder="Input key point title..."
                 onChange={(value) => setSelectedSection({ ...selectedSection, title: value })} />
 
               { /* Description */}
@@ -188,7 +192,7 @@ export function InputWorkExperienceItem({ workExperience, onSave, onRemove }) {
                 <Icon iconType="add" size="size-5" />
                 <p>Add new key point</p>
               </button>
-              
+
 
             </div>
             <div className="flex shrink-0 flex-wrap items-center justify-end p-4 text-blue-gray-500">

@@ -86,16 +86,19 @@ export function InputEducationItem({ education, onSave, onRemove }) {
               <div className="w-full mb-4">
                 {/* Title */}
                 <SimpleTextInput title="Title" id={education.id + "-title"} initialValue={education.title}
+                  placeholder="ABC University"
                   onChange={(value) => onSave({ ...education, title: value })} />
               </div>
               <div className="w-full mb-4">
                 {/* Subtitle */}
                 <SimpleTextInput title="Subtitle" id={education.id + "-subtitle"} initialValue={education.subTitle}
+                  placeholder="Bachelor of Science in Computer Science"
                   onChange={(value) => onSave({ ...education, subTitle: value })} />
               </div>
               <div className="w-full mb-4">
                 {/* Work period */}
                 <SimpleTextInput title="Period" id={education.id + "-period"} initialValue={education.period}
+                  placeholder="2019 - 2023"
                   onChange={(value) => onSave({ ...education, period: value })} />
               </div>
 
@@ -115,25 +118,25 @@ export function InputEducationItem({ education, onSave, onRemove }) {
                 {
                   education.sections &&
                   education.sections.map((section) => (
-                  <div key={section.id} className="p-2">
-                    <div className="flex justify-between">
-                      <p>{section.title}</p>
+                    <div key={section.id} className="p-2">
+                      <div className="flex justify-between">
+                        <p>{section.title}</p>
 
-                      <div className="flex gap-4">
+                        <div className="flex gap-4">
 
-                        <button className="text-gray-700 hover:text-blue-700" onClick={() => { onEditSection(section) }}>
-                          <Icon iconType="edit" size="size-5" />
-                        </button>
+                          <button className="text-gray-700 hover:text-blue-700" onClick={() => { onEditSection(section) }}>
+                            <Icon iconType="edit" size="size-5" />
+                          </button>
 
-                        <button className="text-gray-700 hover:text-red-700" onClick={() => { onRemoveKeyPoint(section.id); }}>
-                          <Icon iconType="clear" size="size-5" />
-                        </button>
+                          <button className="text-gray-700 hover:text-red-700" onClick={() => { onRemoveKeyPoint(section.id); }}>
+                            <Icon iconType="clear" size="size-5" />
+                          </button>
+                        </div>
                       </div>
-                    </div>
 
-                    <GrayHRLine />
-                  </div>
-                ))}
+                      <GrayHRLine />
+                    </div>
+                  ))}
               </div>
             </div>
           </div>
@@ -189,7 +192,7 @@ export function InputEducationItem({ education, onSave, onRemove }) {
                 <Icon iconType="add" size="size-5" />
                 <p>Add new key point</p>
               </button>
-              
+
 
             </div>
             <div className="flex shrink-0 flex-wrap items-center justify-end p-4 text-blue-gray-500">
