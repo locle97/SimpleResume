@@ -13,9 +13,9 @@ export const sampleData = {
   objective: {
     description: 'A highly motivated and results-driven software engineer with 6 years of experience in C# and .Net Core. Graduated from Ho Chi Minh University of Science with a strong academic record. Currently serving as a Senior Software Engineer at Nashtech, where I have been recognized as the Top Excellent Developer in 2020 and Developer of the Year in 2022. Possess a strong ability to analyze and solve complex problems effectively. Committed to delivering high-quality software solutions to meet customer needs and exceed expectations.'
   },
-  education: [],
   workExperiences: [
     {
+      id: uuidv4(),
       companyName: 'Nashtech',
       workPeriod: '2020 - Present',
       jobTitle: 'Senior Software Engineer',
@@ -25,8 +25,7 @@ export const sampleData = {
           title: 'Key Responsibilities',
           description: '',
           items: [
-            'Designed and led the implementation of a new search system using Elasticsearch, significantly improving search performance',
-            'over the previous Neo4j-based system.',
+            'Designed and led the implementation of a new search system using Elasticsearch, significantly improving search performance over the previous Neo4j-based system.',
             'Designed and implemented scalable backend solutions using .NET Core.',
             'Developed real-time data processing systems with Apache Kafka and ksqlDB.',
             'Improved search capabilities with Elasticsearch, which improved the page speed by 90% after implementation.',
@@ -49,6 +48,7 @@ export const sampleData = {
       ]
     },
     {
+      id: uuidv4(),
       companyName: 'Nashtech',
       workPeriod: 'Jul 2018 - Jan 2021',
       jobTitle: 'Software Engineer',
@@ -118,8 +118,7 @@ export const sampleData = {
             'Architected and implemented scalable backend solutions using .NET Core.',
             'Enhanced search capabilities with Elasticsearch, resulting in a 90% improvement in page',
             'speed.',
-            'Conducted comprehensive unit testing and collaborated with cross-functional teams to',
-            'ensure project success.',
+            'Conducted comprehensive unit testing and collaborated with cross-functional teams to ensure project success.',
             'Mentored junior engineers, providing guidance and fostering their professional growth.',
           ]
         },

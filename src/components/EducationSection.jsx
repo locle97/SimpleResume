@@ -11,7 +11,7 @@ export function EducationSection({ educations }) {
         <>
             {/*Work experience*/}
             <div className="flex flex-col mb-6">
-                <SectionTitle title="Education" />
+                <SectionTitle title="Educations" />
                 {
                   educations.map((education, index) => (
                     <div key={education.id}>

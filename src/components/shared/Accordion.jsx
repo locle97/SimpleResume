@@ -1,16 +1,16 @@
 import { useState } from "react";
 
-export function Accordion({ title, children }) {
-  const [isCollapsed, setIsCollapsed] = useState(false);
+export function Accordion({ title, expanded = false, children }) {
+  const [isExpanded, setIsExpaned] = useState(expanded);
 
-  let className = "h-0 transition-all duration-300 ease-in-out";
-  className += isCollapsed ? " overflow-hidden" : "";
+  let className = "transition-all duration-300 ease-in-out";
+  className += !isExpanded ? " h-0 overflow-hidden" : " h-full";
 
   let svgClassName = "size-6 absolute right-0 pt-1 transition-transform";
-  svgClassName += isCollapsed ? " rotate-180" : "";
+  svgClassName += !isExpanded ? " rotate-180" : "";
 
-  const handleCollapse = () => {
-    setIsCollapsed(!isCollapsed);
+  const handleExpand = () => {
+    setIsExpaned(!isExpanded);
   };
 
   return (
@@ -19,7 +19,7 @@ export function Accordion({ title, children }) {
         <button
           className="relative flex items-center w-full p-4 font-semibold text-left transition-all ease-in border-b border-solid cursor-pointer border-slate-100 text-slate-700 rounded-t-1 group text-dark-500"
           data-collapse-target="animated-collapse-1"
-          onClick={handleCollapse}
+          onClick={handleExpand}
         >
           <span>{title}</span>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className={svgClassName}>

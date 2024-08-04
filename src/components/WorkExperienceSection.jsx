@@ -3,17 +3,16 @@ import { WorkExperienceItem } from "./WorkExperienceItem";
 import { SectionTitle } from './shared/SectionTitle'
 
 export function WorkExperienceSection({ workExperiences }) {
-  if (!workExperiences) {
+  if (!workExperiences || workExperiences.length === 0)
     return null;
-  }
 
   return (
     <>
       {/*Work experience*/}
       <div className="flex flex-col mb-6">
-        <SectionTitle title="Work experience" />
+        <SectionTitle title="Work experiences" />
         {workExperiences.map((workExperience, index) => (
-          <div key={index}>
+          <div key={workExperience.id}>
             <WorkExperienceItem workExperience={workExperience} />
             <GrayHRLine />
           </div>

@@ -1,7 +1,7 @@
 import { SimpleDisplaySection } from "./shared/SimpleDisplaySection";
 
 export function ObjectiveSection({ objective }) {
-  if (!objective) {
+  if (!objective || !objective.description) {
     return null;
   }
 
