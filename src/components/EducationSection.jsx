@@ -3,6 +3,10 @@ import { SectionTitle } from "./shared/SectionTitle";
 import { EducationItem } from "./EducationItem";
 
 export function EducationSection({ educations }) {
+    if (!educations || educations.length === 0) {
+      return null;
+    }
+
     return (
         <>
             {/*Work experience*/}

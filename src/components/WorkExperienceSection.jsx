@@ -3,6 +3,10 @@ import { WorkExperienceItem } from "./WorkExperienceItem";
 import { SectionTitle } from './shared/SectionTitle'
 
 export function WorkExperienceSection({ workExperiences }) {
+  if (!workExperiences) {
+    return null;
+  }
+
   return (
     <>
       {/*Work experience*/}

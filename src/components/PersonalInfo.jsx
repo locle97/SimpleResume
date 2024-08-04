@@ -1,13 +1,19 @@
 export function PersonalInfo({ personalInfo }) {
+  if (!personalInfo) {
+    return null;
+  }
+
+  const fullName = personalInfo.firstName + ' ' + personalInfo.lastName;
+
   return (
     <>
       {/*Personal information*/}
       <div className="flex flex-col content-center justify-center	text-center mb-10">
-        <h2 className="text-5xl font-bold my-4">{personalInfo.name}</h2>
-        <p className="sub-title text-base mb-4">{personalInfo.title}</p>
-        <div className="flex justify-center">
+        <h2 className="text-5xl font-bold my-4">{fullName}</h2>
+        <p className="sub-title text-base mb-4 print:text-sm">{personalInfo.title}</p>
+        <div className="flex justify-center print:text-sm">
           {/*Phone*/}
-          <div className="flex mx-6 justify-center content-center">
+          <div className="flex mx-6 print:mx-2 justify-center content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -22,7 +28,7 @@ export function PersonalInfo({ personalInfo }) {
             <p>{personalInfo.phone}</p>
           </div>
           {/*Email*/}
-          <div className="flex mx-6 justify-center content-center">
+          <div className="flex mx-6 print:mx-2 justify-center content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -37,7 +43,7 @@ export function PersonalInfo({ personalInfo }) {
             <p>{personalInfo.email}</p>
           </div>
           {/*Address*/}
-          <div className="flex mx-6 justify-center content-center">
+          <div className="flex mx-6 print:mx-2 justify-center content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -52,7 +58,7 @@ export function PersonalInfo({ personalInfo }) {
             <p>{personalInfo.address}</p>
           </div>
           {/*Birthday*/}
-          <div className="flex mx-6 justify-center content-center">
+          <div className="flex mx-6 print:mx-2 justify-center content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"

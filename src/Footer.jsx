@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer>
+    <footer className="print:hidden">
       Footer
     </footer>
   )

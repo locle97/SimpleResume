@@ -10,7 +10,7 @@ import { SkillSection } from "./SkillSection"
 
 function CVDisplaySection({ cvData }) {
   return (
-    <div className="flex flex-col m-4 w-2/3 px-16 shadow-lg rounded-md">
+    <div id="cv-info" className="print:w-screen print:shadow-none flex flex-col m-4 print:mx-0 w-2/3 min-h-screen px-16 shadow-lg rounded-md">
       <PersonalInfo personalInfo={cvData.personalInfo} />
       <ObjectiveSection objective={cvData.objective} />
       <WorkExperienceSection workExperiences={cvData.workExperiences} />

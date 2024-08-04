@@ -5,7 +5,6 @@ import Footer from './Footer.jsx';
 function App() {
   return (
     <div className="text-black flex flex-col">
-      <Header />
       <MainContent />
       <Footer />
     </div>

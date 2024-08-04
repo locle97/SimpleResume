@@ -2,6 +2,9 @@ import { AwardItem } from "./AwardItem";
 import { SectionTitle } from "./shared/SectionTitle";
 
 export function AwardSection ({ awards }) {
+  if (!awards || awards.length === 0) {
+    return null;
+  }
   return (
     <>
       <SectionTitle title="Honors & Awards" />

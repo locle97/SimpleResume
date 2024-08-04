@@ -49,6 +49,10 @@ function ProjectItem({ project }) {
 }
 
 export function ProjectSection({ projects }) {
+  if (!projects || projects.length === 0) {
+    return null;
+  }
+
   return (
     <div className="flex flex-col mb-6">
       <SectionTitle title="Projects"/>

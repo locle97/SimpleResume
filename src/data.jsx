@@ -1,8 +1,9 @@
 import { v4 as uuidv4 } from 'uuid';
 
-export const data = {
+export const sampleData = {
   personalInfo: {
-    name: 'Le Phat Loc',
+    firstName: 'Loc',
+    lastName: 'Le Phat',
     title: 'Senior Software Engineer',
     email: 'lpl212757@gmail.com',
     phone: '+84 907 132 458',
