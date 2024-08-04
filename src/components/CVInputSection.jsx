@@ -7,6 +7,7 @@ import { InputObjective } from "./InputObjective.jsx";
 
 import { InputWorkExperiences } from './InputWorkExperiences.jsx';
 import { InputProjects } from './InputProjects.jsx';
+import { InputEducations } from './InputEducations.jsx';
 
 import './CVInputSection.css';
 
@@ -39,6 +40,10 @@ function CVInputSection({ cvData, onChangeCV }) {
     onChangeCV({ ...cvData, projects: obj });
   }
 
+  const handleChangeEducations = (obj) => {
+    onChangeCV({ ...cvData, educations: obj });
+  }
+
   return (
     <div className="print:hidden m-4 w-1/3 shadow-md rounded-md flex flex-col sticky top-0 overflow-auto max-h-screen">
       <h1 className="text-2xl text-center bg-gray-100 p-2 rounded-t-md">Simple CV Builder</h1>
@@ -61,6 +66,10 @@ function CVInputSection({ cvData, onChangeCV }) {
 
       <Accordion title="Projects" expanded={false}>
         <InputProjects projects={cvData.projects} onSave={handleChangeProjects} />
+      </Accordion>
+
+      <Accordion title="Educations" expanded={false}>
+        <InputEducations educations={cvData.educations} onSave={handleChangeEducations} />
       </Accordion>
     </div>
   );
