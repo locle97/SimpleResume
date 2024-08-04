@@ -8,6 +8,8 @@ import { InputObjective } from "./InputObjective.jsx";
 import { InputWorkExperiences } from './InputWorkExperiences.jsx';
 import { InputProjects } from './InputProjects.jsx';
 
+import './CVInputSection.css';
+
 function CVInputSection({ cvData, onChangeCV }) {
   const handleLoadSample = () => {
     onChangeCV(sampleData);
@@ -38,7 +40,7 @@ function CVInputSection({ cvData, onChangeCV }) {
   }
 
   return (
-    <div className="print:hidden m-4 w-1/3 shadow-md rounded-md flex flex-col">
+    <div className="print:hidden m-4 w-1/3 shadow-md rounded-md flex flex-col sticky top-0 overflow-auto max-h-screen">
       <h1 className="text-2xl text-center bg-gray-100 p-2 rounded-t-md">Simple CV Builder</h1>
       <div className="p-4 flex">
         <ButtonGroup onLoadSample={handleLoadSample}
