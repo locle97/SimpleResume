@@ -82,7 +82,7 @@ export const sampleData = {
   projects: [
     {
       id: uuidv4(),
-      name: 'Titan - Supply Chain Platform',
+      name: 'Supply Chain Platform',
       period: 'Apr 2021 - Present',
       sections: [
         {
@@ -139,7 +139,7 @@ export const sampleData = {
     },
     {
       id: uuidv4(),
-      name: 'Titan - Supply Chain Platform',
+      name: 'Supply Chain Platform',
       period: 'Jul 2018 - Apr 2021',
       sections: [
         {
