@@ -8,9 +8,9 @@ function Header() {
 
         <nav className="flex justify-end items-center gap-12">
           <a href="/" className="text-2xl nav-link">Home</a>
-          <a href="/builder" className="text-2xl nav-link">Builder</a>
-          <a href="/blog" className="text-2xl nav-link">Blog</a>
-          <a href="/about" className="text-2xl nav-link">About</a>
+          <a href="/#/builder" className="text-2xl nav-link">Builder</a>
+          <a href="/#/blog" className="text-2xl nav-link">Blog</a>
+          <a href="/#/about" className="text-2xl nav-link">About</a>
         </nav>
       </header>
     </>
