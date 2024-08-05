@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 function Header() {
   return (
     <>
@@ -7,10 +9,10 @@ function Header() {
         </a>
 
         <nav className="flex justify-end items-center gap-12">
-          <a href="/" className="text-2xl nav-link">Home</a>
-          <a href="/#/builder" className="text-2xl nav-link">Builder</a>
-          <a href="/#/blog" className="text-2xl nav-link">Blog</a>
-          <a href="/#/about" className="text-2xl nav-link">About</a>
+          <NavLink exact className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/">Home</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/builder">Builder</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/blog">Blog</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/about">About</NavLink>
         </nav>
       </header>
     </>
