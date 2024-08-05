@@ -10,7 +10,7 @@ Welcome to **SimpleResume**, a simple and efficient resume builder application d
 
 ## Live Demo
 
-Check out our live demo to see SimpleResume in action: https://simpleresume.net
+Check out our live demo to see SimpleResume in action: https://simpleresume.net/builder
 
 ![Simple resume screenshot](./docs/simple-resume-builder.png)
 

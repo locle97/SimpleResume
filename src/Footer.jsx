@@ -1,16 +1,15 @@
 function Footer() {
   return (
-    <footer className="print:hidden p-4 bg-white sm:p-6">
-      <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+    <footer className="print:hidden p-4 bg-transparent sm:p-6 border">
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-sm text-gray-500 sm:text-center ">
           © { new Date().getFullYear() }{" "}
           <a
-            href="https://lucasle97.com"
+            href="https://simpleresume.net"
             target="_blank"
             className="hover:underline"
           >
-            Lucas™
+            SimpleResume™
           </a>
           . All Rights Reserved.
         </span>
@@ -50,7 +49,7 @@ function Footer() {
             </svg>
           </a>
           <a
-            href="https://lucasle97.com"
+            href="https://simpleresume.net"
             className="text-gray-500 hover:text-gray-900 "
           >
             <svg

@@ -11,7 +11,7 @@ function MainContent() {
   }
 
   return (
-    <div className="content h-full flex relative">
+    <div className="content my-8 h-full flex relative">
       <CVInputSection cvData={cvData} onChangeCV={handleCVChange} />
       <CVDisplaySection cvData={cvData} />
     </div>

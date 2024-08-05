@@ -1,0 +1,9 @@
+function Home() {
+  return (
+    <div className="flex flex-col items-center justify-center h-screen">
+      <p className="text-lg mt-4">A simple resume builder for you to create your own resume</p>
+    </div>
+  );
+}
+
+export default Home;

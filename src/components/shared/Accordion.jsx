@@ -14,7 +14,7 @@ export function Accordion({ title, expanded = false, children }) {
   };
 
   return (
-    <div className="relative mb-3 px-4">
+    <div className="relative px-4">
       <h6 className="mb-0">
         <button
           className="relative flex items-center w-full p-4 font-semibold text-left transition-all ease-in border-b border-solid cursor-pointer border-slate-100 text-slate-700 rounded-t-1 group text-dark-500"

@@ -60,44 +60,46 @@ function CVInputSection({ cvData, onChangeCV }) {
   }
 
   return (
-    <div className="print:hidden m-4 w-1/3 shadow-md rounded-md flex flex-col sticky top-0 overflow-auto max-h-screen">
-      <h1 className="text-2xl text-center bg-gray-100 p-2 rounded-t-md">Simple Resume Builder</h1>
-      <div className="p-4 flex">
+    <div className="print:hidden m-4 w-1/3 shadow-md rounded-md flex flex-col sticky top-0 overflow-auto h-full max-h-screen">
+      <div className="flex flex-col gap-2">
+        <Accordion title="Personal Info" expanded={true}>
+          <InputPersonalInfo inputInfo={cvData.personalInfo} onSave={handleSavePersonalInfo} />
+        </Accordion>
+
+        <Accordion title="Objective" expanded={false}>
+          <InputObjective objective={cvData.objective} onSave={handleChangeObjective} />
+        </Accordion>
+
+        <Accordion title="Work expieriences" expanded={false}>
+          <InputWorkExperiences workExperiences={cvData.workExperiences} onSave={handleChangeWorkExperiences} />
+        </Accordion>
+
+        <Accordion title="Projects" expanded={false}>
+          <InputProjects projects={cvData.projects} onSave={handleChangeProjects} />
+        </Accordion>
+
+        <Accordion title="Educations" expanded={false}>
+          <InputEducations educations={cvData.educations} onSave={handleChangeEducations} />
+        </Accordion>
+
+        <Accordion title="Certifications" expanded={false}>
+          <InputCertifications certifications={cvData.certifications} onSave={handleChangeCertifications} />
+        </Accordion>
+
+        <Accordion title="Awards" expanded={false}>
+          <InputAwards awards={cvData.awards} onSave={handleChangeAwards} />
+        </Accordion>
+
+        <Accordion title="Skills" expanded={false}>
+          <InputSkills skills={cvData.skills} onSave={handleChangeSkills} />
+        </Accordion>
+      </div>
+
+      <div className="p-4 flex bottom-0 left-0">
         <ButtonGroup onLoadSample={handleLoadSample}
           onDownload={handleDownloadCV}
           onClear={handleClear} />
       </div>
-      <Accordion title="Personal Info" expanded={true}>
-        <InputPersonalInfo inputInfo={cvData.personalInfo} onSave={handleSavePersonalInfo} />
-      </Accordion>
-
-      <Accordion title="Objective" expanded={false}>
-        <InputObjective objective={cvData.objective} onSave={handleChangeObjective} />
-      </Accordion>
-
-      <Accordion title="Work expieriences" expanded={false}>
-        <InputWorkExperiences workExperiences={cvData.workExperiences} onSave={handleChangeWorkExperiences} />
-      </Accordion>
-
-      <Accordion title="Projects" expanded={false}>
-        <InputProjects projects={cvData.projects} onSave={handleChangeProjects} />
-      </Accordion>
-
-      <Accordion title="Educations" expanded={false}>
-        <InputEducations educations={cvData.educations} onSave={handleChangeEducations} />
-      </Accordion>
-
-      <Accordion title="Certifications" expanded={false}>
-        <InputCertifications certifications={cvData.certifications} onSave={handleChangeCertifications} />
-      </Accordion>
-
-      <Accordion title="Awards" expanded={false}>
-        <InputAwards awards={cvData.awards} onSave={handleChangeAwards} />
-      </Accordion>
-
-      <Accordion title="Skills" expanded={false}>
-        <InputSkills skills={cvData.skills} onSave={handleChangeSkills} />
-      </Accordion>
     </div>
   );
 }

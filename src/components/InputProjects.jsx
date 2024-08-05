@@ -5,7 +5,6 @@ import { InputProjectItem } from "./InputProjectItem";
 import { GrayHRLine } from "./shared/GrayHRLine";
 
 export function InputProjects ({ projects = [], onSave }) {
-  console.log('projects', projects);
   const onAddNew = () => {
     const newItems = [...projects];
     newItems.push({
