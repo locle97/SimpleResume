@@ -61,7 +61,7 @@ function CVInputSection({ cvData, onChangeCV }) {
 
   return (
     <div className="print:hidden m-4 w-1/3 shadow-md rounded-md flex flex-col sticky top-0 overflow-auto max-h-screen">
-      <h1 className="text-2xl text-center bg-gray-100 p-2 rounded-t-md">Simple CV Builder</h1>
+      <h1 className="text-2xl text-center bg-gray-100 p-2 rounded-t-md">Simple Resume Builder</h1>
       <div className="p-4 flex">
         <ButtonGroup onLoadSample={handleLoadSample}
           onDownload={handleDownloadCV}

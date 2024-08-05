@@ -23,13 +23,6 @@ export function InputPersonalInfo({ inputInfo, onSave }) {
             onChange={(value) => onSave({ ...inputInfo, title: value })} />
         </div>
 
-        {/* Email */}
-        <div className="mb-4">
-          <SimpleTextInput title="Email" id="email" initialValue={inputInfo.email}
-            placeholder="email@example.com"
-            onChange={(value) => onSave({ ...inputInfo, email: value })} />
-        </div>
-
         {/* Phone */}
         <div className="mb-4">
           <SimpleTextInput title="Phone" id="phone" initialValue={inputInfo.phone}
@@ -37,11 +30,25 @@ export function InputPersonalInfo({ inputInfo, onSave }) {
             onChange={(value) => onSave({ ...inputInfo, phone: value })} />
         </div>
 
+        {/* Email */}
+        <div className="mb-4">
+          <SimpleTextInput title="Email" id="email" initialValue={inputInfo.email}
+            placeholder="email@example.com"
+            onChange={(value) => onSave({ ...inputInfo, email: value })} />
+        </div>
+
         {/* Address */}
         <div className="mb-4">
           <SimpleTextInput title="Address" id="address" initialValue={inputInfo.address}
             placeholder="123 Street, City, Country"
             onChange={(value) => onSave({ ...inputInfo, address: value })} />
+        </div>
+
+        {/* Birthday */}
+        <div className="mb-4">
+          <SimpleTextInput title="Birthday" id="birthday" initialValue={inputInfo.birthday}
+            placeholder="01/01/2000"
+            onChange={(value) => onSave({ ...inputInfo, birthday: value })} />
         </div>
       </div>
     </div>
