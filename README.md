@@ -12,7 +12,7 @@ Welcome to **SimpleResume**, a simple and efficient resume builder application d
 
 Check out our live demo to see SimpleResume in action: https://simpleresume.net
 
-![Simple resume screenshot](https://your-image-url.com/export-options.png)
+![Simple resume screenshot](./docs/simple-resume-builder.png)
 
 ## Features
 
