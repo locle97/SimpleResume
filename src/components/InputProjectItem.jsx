@@ -138,7 +138,7 @@ export function InputProjectItem({ project, onSave, onRemove }) {
         {
           selectedSection &&
           <Modal show={showModal} title={modalTitle}>
-            <div className="overflow-auto max-h-500 relative border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 p-4 font-sans text-base font-light flex flex-col gap-2">
+            <div className="overflow-auto max-h-500 relative border-t border-b border-t-blue-gray-100 border-b-blue-gray-100 p-4 font-sans font-light flex flex-col gap-2">
               { /* Title */}
               <SimpleTextInput
                 title="Title"

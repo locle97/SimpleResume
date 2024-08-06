@@ -10,7 +10,7 @@ export function WorkExperienceItem({ workExperience }) {
         <TitleWithPeriod title={workExperience.companyName} period={workExperience.workPeriod} />
 
         {/*Job title*/}
-        <p className="sub-title text-sm mb-2">{workExperience.jobTitle}</p>
+        <p className="sub-title text-[0.8rem] mb-2">{workExperience.jobTitle}</p>
         {/*Job description list*/}
         <ul className="flex flex-col pl-4">
           {workExperience.sections.map(section => (

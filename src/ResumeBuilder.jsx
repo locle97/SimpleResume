@@ -33,8 +33,12 @@ function ResumeBuilder() {
           onClear={handleClear} />
       </div>
       <div className="content h-full flex relative">
-        <CVInputSection cvData={cvData} onChangeCV={handleCVChange} />
-        <CVDisplaySection cvData={cvData} />
+        <div className="print:hidden flex justify-center w-1/3">
+          <CVInputSection cvData={cvData} onChangeCV={handleCVChange} />
+        </div>
+        <div className="print:w-full h-full flex justify-center w-2/3">
+          <CVDisplaySection cvData={cvData} />
+        </div>
       </div>
     </div>
   )

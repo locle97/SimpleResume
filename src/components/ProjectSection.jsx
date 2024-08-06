@@ -5,7 +5,7 @@ import { TitleWithPeriod } from './shared/TitleWithPeriod';
 function ProjectTableRow ({ row }) {
   return (
     <tr className="border">
-      <td className="pl-2 my-2 font-bold border sub-title text-base w-1/4">{row.title}</td>
+      <td className="pl-2 my-2 font-bold border sub-title w-1/4">{row.title}</td>
       <td >
         <p className="pl-2 my-2">{row.description}</p>
         {

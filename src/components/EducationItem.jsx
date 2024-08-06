@@ -10,7 +10,7 @@ export function EducationItem({ education }) {
                 <TitleWithPeriod title={education.title} period={education.period} />
 
                 {/*Job title*/}
-                <p className="sub-title text-sm mb-2">{education.subTitle}</p>
+                <p className="sub-title text-[0.8rem] mb-2">{education.subTitle}</p>
                 {/*Job description list*/}
                 <ul className="flex flex-col pl-4">
                     {education.sections && education.sections.map(section => (

@@ -9,16 +9,16 @@ export function PersonalInfo({ personalInfo }) {
     <>
       {/*Personal information*/}
       <div className="flex flex-col content-center justify-center	text-center mb-10">
-        <h2 className="text-5xl font-bold my-4">{fullName}</h2>
-        <p className="sub-title text-base mb-4 print:text-sm">{personalInfo.title}</p>
-        <div className="flex justify-center print:text-sm">
+        <h2 className="text-[2.5rem] font-bold mb-4">{fullName}</h2>
+        <p className="sub-title mb-2">{personalInfo.title}</p>
+        <div className="flex justify-center gap-6">
           {/*Phone*/}
-          <div className="flex mx-6 print:mx-2 justify-center content-center">
+          <div className="flex justify-center content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="size-6 mr-2"
+              className="size-4 mr-2"
             >
               <path
                 fillRule="evenodd"
@@ -28,12 +28,12 @@ export function PersonalInfo({ personalInfo }) {
             <p>{personalInfo.phone}</p>
           </div>
           {/*Email*/}
-          <div className="flex mx-6 print:mx-2 justify-center content-center">
+          <div className="flex justify-center content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="size-6 mr-2"
+              className="size-4 mr-2"
             >
               <path
                 fillRule="evenodd"
@@ -43,12 +43,12 @@ export function PersonalInfo({ personalInfo }) {
             <p>{personalInfo.email}</p>
           </div>
           {/*Address*/}
-          <div className="flex mx-6 print:mx-2 justify-center content-center">
+          <div className="flex justify-center content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="size-6 mr-2"
+              className="size-4 mr-2"
             >
               <path
                 fillRule="evenodd"
@@ -58,12 +58,12 @@ export function PersonalInfo({ personalInfo }) {
             <p>{personalInfo.address}</p>
           </div>
           {/*Birthday*/}
-          <div className="flex mx-6 print:mx-2 justify-center content-center">
+          <div className="flex justify-center content-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="size-6 mr-2"
+              className="size-4 mr-2"
             >
               <path d="m15 1.784-.796.795a1.125 1.125 0 1 0 1.591 0L15 1.784ZM12 1.784l-.796.795a1.125 1.125 0 1 0 1.591 0L12 1.784ZM9 1.784l-.796.795a1.125 1.125 0 1 0 1.591 0L9 1.784ZM9.75 7.547c.498-.021.998-.035 1.5-.042V6.75a.75.75 0 0 1 1.5 0v.755c.502.007 1.002.021 1.5.042V6.75a.75.75 0 0 1 1.5 0v.88l.307.022c1.55.117 2.693 1.427 2.693 2.946v1.018a62.182 62.182 0 0 0-13.5 0v-1.018c0-1.519 1.143-2.829 2.693-2.946l.307-.022v-.88a.75.75 0 0 1 1.5 0v.797ZM12 12.75c-2.472 0-4.9.184-7.274.54-1.454.217-2.476 1.482-2.476 2.916v.384a4.104 4.104 0 0 1 2.585.364 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 3.67 0 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 3.67 0 2.605 2.605 0 0 0 2.33 0 4.104 4.104 0 0 1 2.585-.364v-.384c0-1.434-1.022-2.7-2.476-2.917A49.138 49.138 0 0 0 12 12.75ZM21.75 18.131a2.604 2.604 0 0 0-1.915.165 4.104 4.104 0 0 1-3.67 0 2.605 2.605 0 0 0-2.33 0 4.104 4.104 0 0 1-3.67 0 2.605 2.605 0 0 0-2.33 0 4.104 4.104 0 0 1-3.67 0 2.604 2.604 0 0 0-1.915-.165v2.494c0 1.035.84 1.875 1.875 1.875h15.75c1.035 0 1.875-.84 1.875-1.875v-2.494Z" />
             </svg>

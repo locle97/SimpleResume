@@ -5,3 +5,10 @@
 @media print {
   @page { margin: 0; }
 }
+
+@layer base {
+  #cv-info {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 13px;
+  }
+}

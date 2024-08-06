@@ -45,7 +45,7 @@ function CVInputSection({ cvData, onChangeCV }) {
   }
 
   return (
-    <div className="print:hidden m-4 w-1/3 shadow-md rounded-md flex flex-col sticky top-0 overflow-auto h-full max-h-screen">
+    <div className="m-4 shadow-md rounded-md flex flex-col sticky top-0 overflow-auto h-full max-h-screen">
       <div className="flex flex-col gap-2">
         <Accordion title="Personal Info" expanded={true}>
           <InputPersonalInfo inputInfo={cvData.personalInfo} onSave={handleSavePersonalInfo} />
