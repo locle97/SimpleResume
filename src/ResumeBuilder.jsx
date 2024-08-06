@@ -27,7 +27,7 @@ function ResumeBuilder() {
 
   return (
     <div className="mt-8 flex flex-col">
-      <div className="flex justify-end border-b p-4 gap-2">
+      <div className="print:hidden flex justify-end border-b p-4 gap-2">
         <ButtonGroup onLoadSample={handleLoadSample}
           onDownload={handleDownloadCV}
           onClear={handleClear} />
