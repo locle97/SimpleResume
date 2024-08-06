@@ -1,6 +1,3 @@
-import { ButtonGroup } from "./ButtonGroup";
-import { sampleData } from '../data.jsx';
-import { emptyData } from '../emptyData.jsx';
 import { Accordion } from './shared/Accordion.jsx';
 import { InputPersonalInfo } from "./InputPersonalInfo.jsx";
 import { InputObjective } from "./InputObjective.jsx";
@@ -15,18 +12,6 @@ import { InputSkills } from "./InputSkills";
 import './CVInputSection.css';
 
 function CVInputSection({ cvData, onChangeCV }) {
-  const handleLoadSample = () => {
-    onChangeCV(sampleData);
-  }
-
-  const handleDownloadCV = () => {
-    window.print();
-  }
-
-  const handleClear = () => {
-    onChangeCV(emptyData);
-  }
-
   const handleSavePersonalInfo = (info) => {
     onChangeCV({ ...cvData, personalInfo: info });
   }
@@ -95,11 +80,6 @@ function CVInputSection({ cvData, onChangeCV }) {
         </Accordion>
       </div>
 
-      <div className="p-4 flex bottom-0 left-0">
-        <ButtonGroup onLoadSample={handleLoadSample}
-          onDownload={handleDownloadCV}
-          onClear={handleClear} />
-      </div>
     </div>
   );
 }

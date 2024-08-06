@@ -9,7 +9,7 @@ function Header() {
         </a>
 
         <nav className="flex justify-end items-center gap-12">
-          <NavLink exact className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/">Home</NavLink>
+          <NavLink className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/">Home</NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/builder">Builder</NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/blog">Blog</NavLink>
           <NavLink className={({ isActive }) => (isActive ? 'text-2xl nav-link underline' : 'text-2xl nav-link')} to="/about">About</NavLink>

@@ -1,9 +1,9 @@
 import Header from './Header.jsx';
 import Home from './Home';
-import MainContent from './MainContent.jsx';
 import NotFound from './NotFound';
 import Footer from './Footer.jsx';
 import { HashRouter, Routes, Route } from "react-router-dom";
+import ResumeBuilder from './ResumeBuilder.jsx';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/builder" element={<MainContent />} />
+            <Route path="/builder" element={<ResumeBuilder />} />
             <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
