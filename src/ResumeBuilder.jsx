@@ -5,6 +5,7 @@ import { ButtonGroup } from "./components/ButtonGroup";
 
 import { sampleData } from './data.jsx';
 import { emptyData } from './emptyData.jsx';
+import DynamicTitle from './components/shared/DynamicTitle.jsx';
 
 function ResumeBuilder() {
   const [cvData, setCVData] = useState(sampleData);
@@ -27,6 +28,7 @@ function ResumeBuilder() {
 
   return (
     <div className="mt-8 flex flex-col">
+      <DynamicTitle title="Simple Resume - Builder" />
       <div className="print:hidden flex justify-end border-b p-4 gap-2">
         <ButtonGroup onLoadSample={handleLoadSample}
           onDownload={handleDownloadCV}
