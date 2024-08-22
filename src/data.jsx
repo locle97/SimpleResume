@@ -9,6 +9,7 @@ export const sampleData = {
     phone: '+84 907 132 458',
     address: 'Tan Binh, Ho Chi Minh',
     birthday: '27/05/1997',
+    website: 'www.locle.dev',
   },
   objective: {
     description: 'A highly motivated and results-driven software engineer with 6 years of experience in C# and .Net Core. Graduated from Ho Chi Minh University of Science with a strong academic record. Currently serving as a Senior Software Engineer at Nashtech, where I have been recognized as the Top Excellent Developer in 2020 and Developer of the Year in 2022. Possess a strong ability to analyze and solve complex problems effectively. Committed to delivering high-quality software solutions to meet customer needs and exceed expectations.'
@@ -171,6 +172,43 @@ export const sampleData = {
             'Developed targeted solutions to address and rectify production issues, minimizing downtime and enhancing user experience.',
             'Created and executed scripts for data analysis and correction in production environments, ensuring data integrity and accuracy.',
             'Optimized query performance, significantly improving data retrieval times and system efficiency.',
+          ]
+        },
+      ]
+    },
+    {
+      id: uuidv4(),
+      name: 'Duckeebs (Personal Project)',
+      period: 'Mar 2024 - Present',
+      sections: [
+        {
+          id: uuidv4(),
+          title: 'Role',
+          description: 'Creator, developer',
+        },
+        {
+          id: uuidv4(),
+          title: 'Objective',
+          description: 'Developed a web application to allow users to visualize different keycap sets on their keyboards by uploading image, aiding in their purchasing decisions.',
+        },
+        {
+          id: uuidv4(),
+          title: 'Team size',
+          description: '1 member',
+        },
+        {
+          id: uuidv4(),
+          title: 'Key responsibilities',
+          description: 'Designed and implemented frontend and backend, crawled and preprocessed images for training AI models to detect and clasify keycaps. Deployed the application to production using Docker, ensuring consistency and scalability',
+        },
+        {
+          id: uuidv4(),
+          title: 'Technologies',
+          description: '',
+          items: [
+            'Frontend: Angular',
+            'Backend: .NET Core, Python, MSSQL, Elasticsearch',
+            'Image processing: Object detection, Segment anything, Image classification'
           ]
         },
       ]
