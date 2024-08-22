@@ -1,0 +1,291 @@
+{
+  "personalInfo": {
+    "firstName": "Loc",
+    "lastName": "Le Phat",
+    "title": "Senior Software Engineer",
+    "email": "lpl212757@gmail.com",
+    "phone": "+84 907 132 458",
+    "address": "Tan Binh, Ho Chi Minh",
+    "birthday": "27/05/1997",
+    "website": "www.locle.dev"
+  },
+  "objective": {
+    "description": "A highly motivated and results-driven software engineer with 6 years of experience in C# and .Net Core. Graduated from Ho Chi Minh University of Science with a strong academic record. Currently serving as a Senior Software Engineer at Nashtech, where I have been recognized as the Top Excellent Developer in 2020 and Developer of the Year in 2022. Possess a strong ability to analyze and solve complex problems effectively. Committed to delivering high-quality software solutions to meet customer needs and exceed expectations."
+  },
+  "workExperiences": [
+    {
+      "id": "52c08d8a-25d9-4521-88c8-b16b442c3b11",
+      "companyName": "Nashtech",
+      "workPeriod": "2020 - Present",
+      "jobTitle": "Senior Software Engineer",
+      "sections": [
+        {
+          "id": "0e364452-f870-4af8-ba75-a1a5cc8955ba",
+          "title": "Key Responsibilities",
+          "description": "",
+          "items": [
+            "Designed and led the implementation of a new search system using Elasticsearch, significantly improving search performance over the previous Neo4j-based system.",
+            "Designed and implemented scalable backend solutions using .NET Core.",
+            "Developed real-time data processing systems with Apache Kafka and ksqlDB.",
+            "Improved search capabilities with Elasticsearch, which improved the page speed by 90% after implementation.",
+            "Conducted unit testing and collaborated with cross-functional teams.",
+            "Mentored junior engineers."
+          ]
+        },
+        {
+          "id": "1807ddde-d288-4d7c-b636-ea7324feaa4f",
+          "title": "Awards",
+          "description": "Nashtech's Developer of the year 2022"
+        },
+        {
+          "id": "8c4e90b1-7403-4a8b-9a06-5481e3fbcafb",
+          "title": "Skills",
+          "description": "Apache Kafka, MSSQL, .NET Core, Angular 2+, ksqlDB, Nservicebus, C#, Spoon, Elasticsearch, Unit Testing, Neo4j, Git, Scrum process, Pentaho kettle"
+        }
+      ]
+    },
+    {
+      "id": "931fcf3c-4815-4e4a-a039-0514f2b11912",
+      "companyName": "Nashtech",
+      "workPeriod": "Jul 2018 - Jan 2021",
+      "jobTitle": "Software Engineer",
+      "sections": [
+        {
+          "id": "a9c02583-ca6f-4429-a4b9-9d376744a5ee",
+          "title": "Key Responsibilities",
+          "description": "",
+          "items": [
+            "Provided application support and resolved production issues, achieving a 95% resolution rate within a day.",
+            "Developed solutions to address and fix production issues, reducing incident recurrence by 40%.",
+            "Wrote scripts to analyze and correct data in production environments.",
+            "Integrated Neo4j for enhanced data relationships and queries, resulting in a 50% improvement in query performance and data retrieval times."
+          ]
+        },
+        {
+          "id": "d825f5cf-bda8-46bb-b6af-4cd1d0da3121",
+          "title": "Awards",
+          "description": "Nashtech's top excellent developer 2020"
+        },
+        {
+          "id": "96a06965-973e-4640-9991-5d8d00145fef",
+          "title": "Skills",
+          "description": "Angular 2+, Neo4j, C#, OWASP, REST APIs, Microservices, Kanban process"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "e3361c35-8d49-4b2c-93da-7154ef7d3883",
+      "name": "Supply Chain Platform",
+      "period": "Apr 2021 - Present",
+      "sections": [
+        {
+          "id": "2d26cde2-df62-4410-91ee-09ccbceacf6f",
+          "title": "Name of client",
+          "description": "(Confidential)"
+        },
+        {
+          "id": "afc34280-bf33-4386-86fb-90c3dd1cb068",
+          "title": "Project description",
+          "description": "The platform is designed to enhance supply chain sustainability by connecting clients with pre-qualified, compliant suppliers. The platform helps companies meet regulatory compliance, manage supply chain risks, and enhance sustainability initiatives."
+        },
+        {
+          "id": "39194ba2-c8cf-4ab8-9f6d-29f655fb777b",
+          "title": "Project size",
+          "description": "> 100 members"
+        },
+        {
+          "id": "157a1319-d851-489e-8a5f-83285bda0fa2",
+          "title": "Position in project",
+          "description": "Senior Software Engineer"
+        },
+        {
+          "id": "52f23b00-c11c-4b3b-8356-af489df99601",
+          "title": "Key responsibilities",
+          "description": "",
+          "items": [
+            "Designed and led the implementation of a new search system using Elasticsearch, significantly improving search performance over the previous Neo4j-based system.",
+            "Architected and implemented scalable backend solutions using .NET Core.",
+            "Enhanced search capabilities with Elasticsearch, resulting in a 90% improvement in page",
+            "speed.",
+            "Conducted comprehensive unit testing and collaborated with cross-functional teams to ensure project success.",
+            "Mentored junior engineers, providing guidance and fostering their professional growth."
+          ]
+        },
+        {
+          "id": "56aab552-57fb-45e5-b0bf-740f5c307f60",
+          "title": "Technologies",
+          "description": "",
+          "items": [
+            "Backend: .NET core, Microservices, NServiceBus",
+            "Frontend: Angular 14",
+            "Database: Neo4J, Elasticsearch, MSSQL",
+            "API Integration: REST APIs",
+            "Data Processing: Apache Kafka, ksqlDB, Pentaho kettle",
+            "Unit Testing: XUnit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29e41d05-1ff5-4c8e-8df6-afcbb9b26c68",
+      "name": "Supply Chain Platform",
+      "period": "Jul 2018 - Apr 2021",
+      "sections": [
+        {
+          "id": "6c60a476-cf9d-42af-9801-0a410e8689a7",
+          "title": "Name of client",
+          "description": "(Confidential)"
+        },
+        {
+          "id": "d370e611-b48b-4ace-bd52-d6a29124b760",
+          "title": "Project description",
+          "description": "The platform is designed to enhance supply chain sustainability by connecting clients with pre-qualified, compliant suppliers. The platform helps companies meet regulatory compliance, manage supply chain risks, and enhance sustainability initiatives."
+        },
+        {
+          "id": "93cb799f-8b03-450f-8a07-363de97c24d5",
+          "title": "Project size",
+          "description": "> 100 members"
+        },
+        {
+          "id": "b7efb549-6dd2-4acb-b9a0-ff34d70c8286",
+          "title": "Position in project",
+          "description": "App Support Engineer"
+        },
+        {
+          "id": "f537ddcf-b793-4fb0-bab7-1d89cc32ebe8",
+          "title": "Key responsibilities",
+          "description": "",
+          "items": [
+            "Delivered application support, effectively resolving production issues to ensure system stability and performance.",
+            "Developed targeted solutions to address and rectify production issues, minimizing downtime and enhancing user experience.",
+            "Created and executed scripts for data analysis and correction in production environments, ensuring data integrity and accuracy.",
+            "Optimized query performance, significantly improving data retrieval times and system efficiency."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0389deb7-010f-4da3-8b1f-e7c59c28fef4",
+      "name": "Duckeebs (Personal Project)",
+      "period": "Mar 2024 - Present",
+      "sections": [
+        {
+          "id": "0a7754ab-96fa-4c19-be60-9f341f45f2f5",
+          "title": "Role",
+          "description": "Creator, developer"
+        },
+        {
+          "id": "a2e25d2b-9d6a-42dc-a0c6-a218d6dd6ba7",
+          "title": "Objective",
+          "description": "Developed a web application to allow users to visualize different keycap sets on their keyboards by uploading image, aiding in their purchasing decisions."
+        },
+        {
+          "id": "fcff5dc3-c0af-4a1d-ba18-55822552c7fa",
+          "title": "Team size",
+          "description": "1 member"
+        },
+        {
+          "id": "b5065ae9-b4b1-4edb-aaef-5ad1e1edf64b",
+          "title": "Key responsibilities",
+          "description": "Designed and implemented frontend and backend, crawled and preprocessed images for training AI models to detect and clasify keycaps. Deployed the application to production using Docker, ensuring consistency and scalability"
+        },
+        {
+          "id": "8660fe92-7ee5-4018-bba7-31ef3a1e99c4",
+          "title": "Technologies",
+          "description": "",
+          "items": [
+            "Frontend: Angular",
+            "Backend: .NET Core, Python, MSSQL, Elasticsearch",
+            "Image processing: Object detection, Segment anything, Image classification"
+          ]
+        }
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "id": "a2e1144a-e3a0-4b5d-b479-3f963abe85c5",
+      "title": "VNUHCM - University of Science ",
+      "period": "Sep 2015 - May 2018",
+      "subTitle": "Major: College - Information Technology",
+      "sections": [
+        {
+          "id": "958c00b0-741f-4906-89de-0e521a9f9b40",
+          "title": "GPA",
+          "description": "3.6 / 4.0"
+        },
+        {
+          "id": "ff6fa3aa-363f-4673-a325-56fcae806499",
+          "title": "Award",
+          "description": "Consolation prizes of HCMUS's Olympic Information Technology"
+        }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "id": "2bab5ff8-1148-477e-9747-750fddc09f37",
+      "title": "IBM AI Engineering",
+      "issuer": "IBM",
+      "description": "This certification demonstrates the ability to design, build, and deploy AI models and solutions using IBM Watson OpenScale and IBM Cloud Pak for Data.",
+      "issuedDate": "Aug 2024"
+    },
+    {
+      "id": "44ceb253-26a2-48d9-a5a8-0500314c0d67",
+      "title": "Big-O Coding",
+      "issuer": "BigO",
+      "description": "Big-O is a coding platform that helps developers improve their coding skills and prepare for technical interviews",
+      "issuedDate": "Sep 2021"
+    }
+  ],
+  "awards": [
+    {
+      "id": "f5d4788b-ef2f-4d48-8f46-8d264020146c",
+      "title": "NahTech's Developer of the year 2022",
+      "issuer": "NashTech",
+      "issuedDate": "2022",
+      "description": ""
+    },
+    {
+      "id": "2bed927f-5919-443b-b532-147a6ca679e9",
+      "title": "NahTech's Top Excellent Developer 2020",
+      "issuer": "NashTech",
+      "issuedDate": "2020",
+      "description": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": "ef432647-358a-4110-98af-e811fa8f0c77",
+      "title": "Language",
+      "description": "English"
+    },
+    {
+      "id": "4cfbd722-6100-4501-8368-52856e56072b",
+      "title": "Backend",
+      "description": "C#, .NET core, Python, Apache Kafka, NServicebus"
+    },
+    {
+      "id": "1ac6db62-3ad8-444d-b112-29a8846290cc",
+      "title": "Frontend",
+      "description": "Angular, ReactJS, TypeScript, Javascript"
+    },
+    {
+      "id": "fc606927-aa2b-4244-8a71-66073c296f18",
+      "title": "Database",
+      "description": "Neo4J, Elasticsearch, MSSQL, Postgres"
+    },
+    {
+      "id": "a4f77c45-b31b-4cc4-8b52-dcdcbec7812b",
+      "title": "AI",
+      "description": "Computer Vision, Tensorflow, PyTorch"
+    },
+    {
+      "id": "66a09a2b-8051-4c6f-a3d4-779629a1d51a",
+      "title": "Soft Skills",
+      "description": "Research, problem solving, critial thinking"
+    }
+  ]
+}
