@@ -26,7 +26,10 @@ function ResumeBuilder() {
 
   const printCV = () => {
     // Export & Print
+    const backupTitle = document.title;
+    document.title = cvData.personalInfo.firstName + " " + cvData.personalInfo.lastName + " - Simple Resume";
     window.print();
+    document.title = backupTitle;
   }
 
   const exportJson = () => {
