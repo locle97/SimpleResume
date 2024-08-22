@@ -23,6 +23,13 @@ export function InputPersonalInfo({ inputInfo, onSave }) {
             onChange={(value) => onSave({ ...inputInfo, title: value })} />
         </div>
 
+        {/* Website */}
+        <div className="mb-4">
+          <SimpleTextInput title="Website" id="website" initialValue={inputInfo.website}
+            placeholder="www.example.com"
+            onChange={(value) => onSave({ ...inputInfo, website: value })} />
+        </div>
+
         {/* Phone */}
         <div className="mb-4">
           <SimpleTextInput title="Phone" id="phone" initialValue={inputInfo.phone}
