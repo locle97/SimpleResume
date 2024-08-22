@@ -3,7 +3,6 @@ import CVInputSection from './components/CVInputSection.jsx';
 import CVDisplaySection from './components/CVDisplaySection.jsx';
 import { ButtonGroup } from "./components/ButtonGroup";
 
-import { sampleData } from './data.jsx';
 import { emptyData } from './emptyData.jsx';
 import DynamicTitle from './components/shared/DynamicTitle.jsx';
 
@@ -27,7 +26,6 @@ function ResumeBuilder() {
 
   const printCV = () => {
     // Export & Print
-    // Export Data as JSON
     window.print();
   }
 
@@ -42,14 +40,26 @@ function ResumeBuilder() {
   }
 
   const importJson = (e) => {
-    // Open file dialog
-    // Read file
-    const fileReader = new FileReader();
-    fileReader.onload = (e) => {
-      const content = e.target.result;
-      setCVData(JSON.parse(content));
+    if (e.target.files.length === 0) {
+      return;
     }
-    fileReader.readAsText(e.target.files[0]);
+
+    const file = e.target.files[0];
+    var fileReader = new FileReader();
+
+    fileReader.onload = function() {
+      const textContent = fileReader.result;
+
+      try {
+        const parsedData = JSON.parse(textContent);
+        setCVData(parsedData);
+
+      } catch (error) {
+        console.error('Invalid JSON file');
+      }
+    }
+
+    fileReader.readAsText(file);
   }
 
 
