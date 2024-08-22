@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import CVInputSection from './components/CVInputSection.jsx';
 import CVDisplaySection from './components/CVDisplaySection.jsx';
 import { ButtonGroup } from "./components/ButtonGroup";
@@ -8,14 +8,21 @@ import { emptyData } from './emptyData.jsx';
 import DynamicTitle from './components/shared/DynamicTitle.jsx';
 
 function ResumeBuilder() {
-  const [cvData, setCVData] = useState(sampleData);
+  const [cvData, setCVData] = useState(emptyData);
+
+  useEffect(() => {
+    fetchSampleData();
+  }, []);
 
   const handleCVChange = (newCVData) => {
     setCVData(newCVData);
   }
 
-  const handleLoadSample = () => {
-    setCVData(sampleData);
+  const fetchSampleData = async () => {
+    const url = "sample.json";
+    const response = await fetch(url);
+    const data = await response.json();
+    setCVData(data);
   }
 
   const printCV = () => {
@@ -54,7 +61,7 @@ function ResumeBuilder() {
     <div className="mt-8 flex flex-col">
       <DynamicTitle title="Simple Resume - Builder" />
       <div className="print:hidden flex justify-end border-b p-4 gap-2">
-        <ButtonGroup onLoadSample={handleLoadSample}
+        <ButtonGroup onLoadSample={fetchSampleData}
           onDownload={printCV}
           onImport={importJson}
           onExport={exportJson}
