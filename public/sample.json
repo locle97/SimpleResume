@@ -10,13 +10,40 @@
         "website": "www.locle.dev"
     },
     "objective": {
-        "description": "A highly motivated and results-driven software engineer with 6 years of experience in C# and .Net Core. Graduated from Ho Chi Minh University of Science with a strong academic record. Currently serving as a Senior Software Engineer at Nashtech, where I have been recognized as the Top Excellent Developer in 2020 and Developer of the Year in 2022. Possess a strong ability to analyze and solve complex problems effectively. Committed to delivering high-quality software solutions to meet customer needs and exceed expectations."
+        "description": "A highly motivated and results-driven software engineer with 8 years of experience in C# and .Net Core. Graduated from Ho Chi Minh University of Science with a strong academic record. Currently serving as a Senior Software Engineer at Nashtech, where I have been recognized as the Top Excellent Developer in 2020 and Developer of the Year in 2022. Possess a strong ability to analyze and solve complex problems effectively. Committed to delivering high-quality software solutions to meet customer needs and exceed expectations."
     },
     "workExperiences": [
         {
+            "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+            "companyName": "CoverGo",
+            "workPeriod": "June 2024 - Present",
+            "jobTitle": "Senior Fullstack Engineer",
+            "sections": [
+                {
+                    "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+                    "title": "Key Responsibilities",
+                    "description": "",
+                    "items": [
+                        "Designed and developed multi-tenant insurance SaaS platform enabling insurers to configure products using low/no-code approach",
+                        "Applied Domain-Driven Design (DDD) and CQRS to model core domains: Product, Proposal, Pricing, Policy",
+                        "Built scalable backend services with .NET Core and exposed flexible APIs via GraphQL",
+                        "Developed dynamic configuration UI using Vue.js for product setup and workflow management",
+                        "Containerized services using Docker and deployed to Kubernetes environments",
+                        "Implemented centralized logging and monitoring with Loki",
+                        "Designed tenant-isolated data models using MongoDB"
+                    ]
+                },
+                {
+                    "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+                    "title": "Skills",
+                    "description": ".NET Core · Domain-Driven Design (DDD) · CQRS · GraphQL · Vue.js · Kubernetes · Docker · MongoDB · Loki · Node.js"
+                }
+            ]
+        },
+        {
             "id": "52c08d8a-25d9-4521-88c8-b16b442c3b11",
             "companyName": "Nashtech",
-            "workPeriod": "2020 - Present",
+            "workPeriod": "Jan 2021 - June 2024",
             "jobTitle": "Senior Software Engineer",
             "sections": [
                 {
@@ -76,9 +103,75 @@
     ],
     "projects": [
         {
+            "id": "d4e5f6a7-b8c9-0123-defa-234567890123",
+            "name": "CoverHealth – Insurance No-Code / Low-Code Platform",
+            "period": "June 2024 - Present",
+            "sections": [
+                {
+                    "id": "e5f6a7b8-c9d0-1234-efab-345678901234",
+                    "title": "Name of client",
+                    "description": "(Confidential)"
+                },
+                {
+                    "id": "f6a7b8c9-d0e1-2345-fabc-456789012345",
+                    "title": "Project description",
+                    "description": "CoverHealth is a multi-tenant insurance SaaS platform that enables insurers to design, configure, and launch digital insurance products using a low-code/no-code approach. The platform supports product configuration, proposal management, pricing logic, and policy lifecycle management across multiple insurance lines."
+                },
+                {
+                    "id": "a7b8c9d0-e1f2-3456-abcd-567890123456",
+                    "title": "Project size",
+                    "description": "> 150 members"
+                },
+                {
+                    "id": "b8c9d0e1-f2a3-4567-bcde-678901234567",
+                    "title": "Position in project",
+                    "description": "Senior Fullstack Engineer"
+                },
+                {
+                    "id": "c9d0e1f2-a3b4-5678-cdef-789012345678",
+                    "title": "Key responsibilities",
+                    "description": "",
+                    "items": [
+                        "Designed and developed multi-tenant insurance SaaS platform enabling insurers to configure products using low/no-code approach",
+                        "Applied Domain-Driven Design (DDD) and CQRS to model core domains: Product, Proposal, Pricing, Policy",
+                        "Built scalable backend services with .NET Core and exposed flexible APIs via GraphQL",
+                        "Developed dynamic configuration UI using Vue.js for product setup and workflow management",
+                        "Containerized services using Docker and deployed to Kubernetes environments",
+                        "Implemented centralized logging and monitoring with Loki",
+                        "Designed tenant-isolated data models using MongoDB"
+                    ]
+                },
+                {
+                    "id": "d0e1f2a3-b4c5-6789-defa-890123456789",
+                    "title": "Key Achievement",
+                    "description": "",
+                    "items": [
+                        "Architected and implemented a configurable pricing & tax engine allowing insurers to:",
+                        "Define flexible tax rules per product, region, and coverage",
+                        "Configure calculation logic dynamically without code changes",
+                        "Automatically apply tax computation during proposal/offering generation",
+                        "Improved pricing extensibility while maintaining performance and tenant isolation"
+                    ]
+                },
+                {
+                    "id": "e1f2a3b4-c5d6-7890-efab-901234567890",
+                    "title": "Technologies",
+                    "description": "",
+                    "items": [
+                        "Backend: .NET Core, CQRS, DDD, Node.js",
+                        "Frontend: Vue.js",
+                        "Database: MongoDB",
+                        "Containerization & Orchestration: Docker, Kubernetes",
+                        "API: GraphQL",
+                        "Monitoring & Logging: Loki"
+                    ]
+                }
+            ]
+        },
+        {
             "id": "e3361c35-8d49-4b2c-93da-7154ef7d3883",
             "name": "Supply Chain Platform",
-            "period": "Apr 2021 - Present",
+            "period": "Apr 2021 - June 2024",
             "sections": [
                 {
                     "id": "2d26cde2-df62-4410-91ee-09ccbceacf6f",
@@ -273,17 +366,22 @@
         {
             "id": "4cfbd722-6100-4501-8368-52856e56072b",
             "title": "Backend",
-            "description": "C#, .NET core, Python, Apache Kafka, NServicebus"
+            "description": "C#, .NET core, Python, Node.js, Apache Kafka, NServicebus, GraphQL, CQRS, DDD"
         },
         {
             "id": "1ac6db62-3ad8-444d-b112-29a8846290cc",
             "title": "Frontend",
-            "description": "Angular, ReactJS, TypeScript, Javascript"
+            "description": "Angular, ReactJS, Vue.js, TypeScript, Javascript"
         },
         {
             "id": "fc606927-aa2b-4244-8a71-66073c296f18",
             "title": "Database",
-            "description": "Neo4J, Elasticsearch, MSSQL, Postgres"
+            "description": "Neo4J, Elasticsearch, MSSQL, Postgres, MongoDB"
+        },
+        {
+            "id": "d7e8f9a0-b1c2-4d3e-f456-789012345678",
+            "title": "DevOps",
+            "description": "Docker, Kubernetes"
         },
         {
             "id": "a4f77c45-b31b-4cc4-8b52-dcdcbec7812b",
