@@ -51,11 +51,18 @@ export function InputPersonalInfo({ inputInfo, onSave }) {
             onChange={(value) => onSave({ ...inputInfo, address: value })} />
         </div>
 
-        {/* Birthday */}
+        {/* GitHub */}
         <div className="mb-4">
-          <SimpleTextInput title="Birthday" id="birthday" initialValue={inputInfo.birthday}
-            placeholder="01/01/2000"
-            onChange={(value) => onSave({ ...inputInfo, birthday: value })} />
+          <SimpleTextInput title="GitHub" id="github" initialValue={inputInfo.github}
+            placeholder="github.com/username"
+            onChange={(value) => onSave({ ...inputInfo, github: value })} />
+        </div>
+
+        {/* LinkedIn */}
+        <div className="mb-4">
+          <SimpleTextInput title="LinkedIn" id="linkedin" initialValue={inputInfo.linkedin}
+            placeholder="linkedin.com/in/username"
+            onChange={(value) => onSave({ ...inputInfo, linkedin: value })} />
         </div>
       </div>
     </div>

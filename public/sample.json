@@ -5,9 +5,10 @@
         "title": "Senior Software Engineer",
         "email": "lpl212757@gmail.com",
         "phone": "+84 907 132 458",
-        "address": "Tan Binh, Ho Chi Minh",
-        "birthday": "27/05/1997",
-        "website": "www.locle.dev"
+        "address": "Ho Chi Minh City, Vietnam",
+        "website": "www.locle.dev",
+        "github": "github.com/locle97",
+        "linkedin": "linkedin.com/in/locle97"
     },
     "objective": {
         "description": "A highly motivated and results-driven software engineer with 8 years of experience in C# and .Net Core. Graduated from Ho Chi Minh University of Science with a strong academic record. Currently serving as a Senior Software Engineer at Nashtech, where I have been recognized as the Top Excellent Developer in 2020 and Developer of the Year in 2022. Possess a strong ability to analyze and solve complex problems effectively. Committed to delivering high-quality software solutions to meet customer needs and exceed expectations."
@@ -54,7 +55,7 @@
                         "Designed and led the implementation of a new search system using Elasticsearch, significantly improving search performance over the previous Neo4j-based system.",
                         "Designed and implemented scalable backend solutions using .NET Core.",
                         "Developed real-time data processing systems with Apache Kafka and ksqlDB.",
-                        "Improved search capabilities with Elasticsearch, which improved the page speed by 90% after implementation.",
+                        "Reduced search latency by 90% by redesigning system architecture from Neo4j-based graph queries to Elasticsearch distributed indexing.",
                         "Conducted unit testing and collaborated with cross-functional teams.",
                         "Mentored junior engineers."
                     ]
@@ -67,7 +68,7 @@
                 {
                     "id": "8c4e90b1-7403-4a8b-9a06-5481e3fbcafb",
                     "title": "Skills",
-                    "description": "Apache Kafka, MSSQL, .NET Core, Angular 2+, ksqlDB, Nservicebus, C#, Spoon, Elasticsearch, Unit Testing, Neo4j, Git, Scrum process, Pentaho kettle"
+                    "description": "Apache Kafka, MSSQL, .NET Core, Angular 2+, ksqlDB, NServiceBus, C#, Spoon, Elasticsearch, Unit Testing, Neo4j, Git, Scrum process, Pentaho kettle"
                 }
             ]
         },
@@ -108,14 +109,9 @@
             "period": "June 2024 - Present",
             "sections": [
                 {
-                    "id": "e5f6a7b8-c9d0-1234-efab-345678901234",
-                    "title": "Name of client",
-                    "description": "(Confidential)"
-                },
-                {
                     "id": "f6a7b8c9-d0e1-2345-fabc-456789012345",
                     "title": "Project description",
-                    "description": "CoverHealth is a multi-tenant insurance SaaS platform that enables insurers to design, configure, and launch digital insurance products using a low-code/no-code approach. The platform supports product configuration, proposal management, pricing logic, and policy lifecycle management across multiple insurance lines."
+                    "description": "Multi-tenant insurance SaaS platform enabling insurers to design, configure, and launch digital insurance products using a low-code/no-code approach."
                 },
                 {
                     "id": "a7b8c9d0-e1f2-3456-abcd-567890123456",
@@ -124,64 +120,35 @@
                 },
                 {
                     "id": "b8c9d0e1-f2a3-4567-bcde-678901234567",
-                    "title": "Position in project",
+                    "title": "Position",
                     "description": "Senior Fullstack Engineer"
                 },
                 {
-                    "id": "c9d0e1f2-a3b4-5678-cdef-789012345678",
-                    "title": "Key responsibilities",
-                    "description": "",
-                    "items": [
-                        "Designed and developed multi-tenant insurance SaaS platform enabling insurers to configure products using low/no-code approach",
-                        "Applied Domain-Driven Design (DDD) and CQRS to model core domains: Product, Proposal, Pricing, Policy",
-                        "Built scalable backend services with .NET Core and exposed flexible APIs via GraphQL",
-                        "Developed dynamic configuration UI using Vue.js for product setup and workflow management",
-                        "Containerized services using Docker and deployed to Kubernetes environments",
-                        "Implemented centralized logging and monitoring with Loki",
-                        "Designed tenant-isolated data models using MongoDB"
-                    ]
-                },
-                {
                     "id": "d0e1f2a3-b4c5-6789-defa-890123456789",
-                    "title": "Key Achievement",
+                    "title": "Key Achievements",
                     "description": "",
                     "items": [
-                        "Architected and implemented a configurable pricing & tax engine allowing insurers to:",
-                        "Define flexible tax rules per product, region, and coverage",
-                        "Configure calculation logic dynamically without code changes",
-                        "Automatically apply tax computation during proposal/offering generation",
-                        "Improved pricing extensibility while maintaining performance and tenant isolation"
+                        "Architected a configurable pricing & tax engine: flexible tax rules per product/region/coverage, dynamic calculation logic without code changes, automated tax computation during proposal generation.",
+                        "Built a document management feature enabling agents to upload insurer-related documents, with cross-stage synchronization to track document progress throughout the buy flow and streamline the review process.",
+                        "Developed a dynamic expression engine allowing users to define conditional logic using custom expressions evaluated against real-time member and policy data, enabling context-aware question rendering throughout the proposal flow."
                     ]
                 },
                 {
                     "id": "e1f2a3b4-c5d6-7890-efab-901234567890",
                     "title": "Technologies",
-                    "description": "",
-                    "items": [
-                        "Backend: .NET Core, CQRS, DDD, Node.js",
-                        "Frontend: Vue.js",
-                        "Database: MongoDB",
-                        "Containerization & Orchestration: Docker, Kubernetes",
-                        "API: GraphQL",
-                        "Monitoring & Logging: Loki"
-                    ]
+                    "description": ".NET Core, CQRS, DDD, GraphQL, Vue.js, MongoDB, Docker, Kubernetes, Loki, Node.js"
                 }
             ]
         },
         {
             "id": "e3361c35-8d49-4b2c-93da-7154ef7d3883",
-            "name": "Supply Chain Platform",
+            "name": "Supply Chain Sustainability Platform",
             "period": "Apr 2021 - June 2024",
             "sections": [
                 {
-                    "id": "2d26cde2-df62-4410-91ee-09ccbceacf6f",
-                    "title": "Name of client",
-                    "description": "(Confidential)"
-                },
-                {
                     "id": "afc34280-bf33-4386-86fb-90c3dd1cb068",
                     "title": "Project description",
-                    "description": "The platform is designed to enhance supply chain sustainability by connecting clients with pre-qualified, compliant suppliers. The platform helps companies meet regulatory compliance, manage supply chain risks, and enhance sustainability initiatives."
+                    "description": "Platform connecting clients with pre-qualified, compliant suppliers to meet regulatory compliance, manage supply chain risks, and enhance sustainability initiatives."
                 },
                 {
                     "id": "39194ba2-c8cf-4ab8-9f6d-29f655fb777b",
@@ -190,51 +157,34 @@
                 },
                 {
                     "id": "157a1319-d851-489e-8a5f-83285bda0fa2",
-                    "title": "Position in project",
+                    "title": "Position",
                     "description": "Senior Software Engineer"
                 },
                 {
                     "id": "52f23b00-c11c-4b3b-8356-af489df99601",
-                    "title": "Key responsibilities",
+                    "title": "Key Achievements",
                     "description": "",
                     "items": [
-                        "Designed and led the implementation of a new search system using Elasticsearch, significantly improving search performance over the previous Neo4j-based system.",
-                        "Architected and implemented scalable backend solutions using .NET Core.",
-                        "Enhanced search capabilities with Elasticsearch, resulting in a 90% improvement in page",
-                        "speed.",
-                        "Conducted comprehensive unit testing and collaborated with cross-functional teams to ensure project success.",
-                        "Mentored junior engineers, providing guidance and fostering their professional growth."
+                        "Reduced search latency by 90% by redesigning system architecture from Neo4j-based graph queries to Elasticsearch distributed indexing",
+                        "Maintained and enhanced the health questionnaire module, working closely with TAs and BAs to design system flows and translate business requirements into technical solutions"
                     ]
                 },
                 {
                     "id": "56aab552-57fb-45e5-b0bf-740f5c307f60",
                     "title": "Technologies",
-                    "description": "",
-                    "items": [
-                        "Backend: .NET core, Microservices, NServiceBus",
-                        "Frontend: Angular 14",
-                        "Database: Neo4J, Elasticsearch, MSSQL",
-                        "API Integration: REST APIs",
-                        "Data Processing: Apache Kafka, ksqlDB, Pentaho kettle",
-                        "Unit Testing: XUnit"
-                    ]
+                    "description": ".NET Core, Microservices, NServiceBus, Angular 14, Neo4J, Elasticsearch, MSSQL, Apache Kafka, ksqlDB, REST APIs, XUnit"
                 }
             ]
         },
         {
             "id": "29e41d05-1ff5-4c8e-8df6-afcbb9b26c68",
-            "name": "Supply Chain Platform",
+            "name": "Supply Chain Sustainability Platform",
             "period": "Jul 2018 - Apr 2021",
             "sections": [
                 {
-                    "id": "6c60a476-cf9d-42af-9801-0a410e8689a7",
-                    "title": "Name of client",
-                    "description": "(Confidential)"
-                },
-                {
                     "id": "d370e611-b48b-4ace-bd52-d6a29124b760",
                     "title": "Project description",
-                    "description": "The platform is designed to enhance supply chain sustainability by connecting clients with pre-qualified, compliant suppliers. The platform helps companies meet regulatory compliance, manage supply chain risks, and enhance sustainability initiatives."
+                    "description": "Platform connecting clients with pre-qualified, compliant suppliers to meet regulatory compliance, manage supply chain risks, and enhance sustainability initiatives."
                 },
                 {
                     "id": "93cb799f-8b03-450f-8a07-363de97c24d5",
@@ -243,19 +193,23 @@
                 },
                 {
                     "id": "b7efb549-6dd2-4acb-b9a0-ff34d70c8286",
-                    "title": "Position in project",
+                    "title": "Position",
                     "description": "App Support Engineer"
                 },
                 {
                     "id": "f537ddcf-b793-4fb0-bab7-1d89cc32ebe8",
-                    "title": "Key responsibilities",
+                    "title": "Key Achievements",
                     "description": "",
                     "items": [
-                        "Delivered application support, effectively resolving production issues to ensure system stability and performance.",
-                        "Developed targeted solutions to address and rectify production issues, minimizing downtime and enhancing user experience.",
-                        "Created and executed scripts for data analysis and correction in production environments, ensuring data integrity and accuracy.",
-                        "Optimized query performance, significantly improving data retrieval times and system efficiency."
+                        "Resolved critical production incidents, minimizing system downtime",
+                        "Delivered targeted data hotfixes to correct production data integrity issues",
+                        "Investigated and resolved performance bottlenecks and data inconsistency issues across distributed services"
                     ]
+                },
+                {
+                    "id": "96a06965-973e-4640-9991-5d8d00145fef",
+                    "title": "Technologies",
+                    "description": "Angular 2+, Neo4j, C#, REST APIs, Microservices"
                 }
             ]
         },
@@ -265,34 +219,24 @@
             "period": "Mar 2024 - Present",
             "sections": [
                 {
-                    "id": "0a7754ab-96fa-4c19-be60-9f341f45f2f5",
-                    "title": "Role",
-                    "description": "Creator, developer"
-                },
-                {
                     "id": "a2e25d2b-9d6a-42dc-a0c6-a218d6dd6ba7",
-                    "title": "Objective",
-                    "description": "Developed a web application to allow users to visualize different keycap sets on their keyboards by uploading image, aiding in their purchasing decisions."
-                },
-                {
-                    "id": "fcff5dc3-c0af-4a1d-ba18-55822552c7fa",
-                    "title": "Team size",
-                    "description": "1 member"
+                    "title": "Description",
+                    "description": "A platform for keyboard enthusiasts to browse interest check and group buy posts, with AI-powered visualization of keycap sets on user-uploaded keyboard images."
                 },
                 {
                     "id": "b5065ae9-b4b1-4edb-aaef-5ad1e1edf64b",
-                    "title": "Key responsibilities",
-                    "description": "Designed and implemented frontend and backend, crawled and preprocessed images for training AI models to detect and clasify keycaps. Deployed the application to production using Docker, ensuring consistency and scalability"
+                    "title": "Key Achievements",
+                    "description": "",
+                    "items": [
+                        "Built an AI-powered feature to visually overlay keycap sets on user-uploaded keyboard photos using object detection, image segmentation, and classification models",
+                        "Developed a community platform for keyboard enthusiasts to browse and track interest check and group buy posts",
+                        "Deployed the full stack to production on K3s (Kubernetes), Docker, and AWS EC2"
+                    ]
                 },
                 {
                     "id": "8660fe92-7ee5-4018-bba7-31ef3a1e99c4",
                     "title": "Technologies",
-                    "description": "",
-                    "items": [
-                        "Frontend: Angular",
-                        "Backend: .NET Core, Python, MSSQL, Elasticsearch",
-                        "Image processing: Object detection, Segment anything, Image classification"
-                    ]
+                    "description": "Angular, .NET Core, Python, MSSQL, Elasticsearch, TensorFlow, Docker, Kubernetes (K3s), AWS EC2"
                 }
             ]
         }
@@ -344,14 +288,14 @@
     "awards": [
         {
             "id": "f5d4788b-ef2f-4d48-8f46-8d264020146c",
-            "title": "NahTech's Developer of the year 2022",
+            "title": "NashTech's Developer of the year 2022",
             "issuer": "NashTech",
             "issuedDate": "2022",
             "description": ""
         },
         {
             "id": "2bed927f-5919-443b-b532-147a6ca679e9",
-            "title": "NahTech's Top Excellent Developer 2020",
+            "title": "NashTech's Top Excellent Developer 2020",
             "issuer": "NashTech",
             "issuedDate": "2020",
             "description": ""
@@ -366,12 +310,12 @@
         {
             "id": "4cfbd722-6100-4501-8368-52856e56072b",
             "title": "Backend",
-            "description": "C#, .NET core, Python, Node.js, Apache Kafka, NServicebus, GraphQL, CQRS, DDD"
+            "description": "C#, .NET Core, Python, Node.js, Apache Kafka, NServiceBus, GraphQL, CQRS, DDD"
         },
         {
             "id": "1ac6db62-3ad8-444d-b112-29a8846290cc",
             "title": "Frontend",
-            "description": "Angular, ReactJS, Vue.js, TypeScript, Javascript"
+            "description": "Angular, React, Vue.js, TypeScript, JavaScript"
         },
         {
             "id": "fc606927-aa2b-4244-8a71-66073c296f18",
@@ -391,7 +335,7 @@
         {
             "id": "66a09a2b-8051-4c6f-a3d4-779629a1d51a",
             "title": "Soft Skills",
-            "description": "Research, problem solving, critial thinking"
+            "description": "Research, problem solving, critical thinking"
         }
     ]
 }
